@@ -1,81 +1,81 @@
-body{
-  font-family:Georgia, 'Times New Roman', Times, serif
+body {
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
-.logo{
+.logo {
   width: 200px;
 }
-.logo-container{
+.logo-container {
   display: flex;
   justify-content: center;
   padding-top: 50px;
 }
 
-.social-media{
+.social-media {
   display: flex;
-  
 }
-.insta{
+.insta {
   display: flex;
-  padding: 20px; 
+  padding: 20px;
 }
 
-.content-images{
+.content-images {
   width: 300px;
   height: 450px;
 }
 
-.figure{
+.figure {
   display: flex;
   justify-content: space-around;
   padding-top: 100px;
-  
 }
-.content-links{
+.content-links {
   width: 300px;
   padding-bottom: 50px;
 }
-.footer-logo{
+.footer-logo {
   text-align: center;
   padding-top: 50px;
-  background: #FF4E41;
-  background: linear-gradient(to right, #FF4E41 0%, #FB6B18 30%, #FF4208 60%, #C10209 100%);
+  background: #ff4e41;
+  background: linear-gradient(
+    to right,
+    #ff4e41 0%,
+    #fb6b18 30%,
+    #ff4208 60%,
+    #c10209 100%
+  );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-
 }
-.footer{
-background-color: #F0F1F2;
-height: 300px;
-
+.footer {
+  background-color: #f0f1f2;
+  height: 300px;
 }
-.footer-links{
+.footer-links {
   text-align: center;
 }
 
-.content-ingredients{
+.content-ingredients {
   display: flex;
   flex-direction: column;
   align-items: center;
   padding-bottom: 75px;
-  
 }
-.card-container{
+.card-container {
   padding: 75px;
 }
- 
-.sub-content-images{
+
+.sub-content-images {
   border-radius: 50%;
 }
-.sub-content-links{
- display:inline-flex;
- 
- align-items: center;
-  
+.sub-content-links {
+  display: inline-flex;
+
+  align-items: center;
 }
-.caption{
+.caption {
   padding: 50px;
 }
-.chopsticks{
+.chopsticks {
   width: 300px;
   height: 200px;
   padding-top: 100px;
