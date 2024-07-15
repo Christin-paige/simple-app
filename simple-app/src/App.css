@@ -1,0 +1,83 @@
+body{
+  font-family:Georgia, 'Times New Roman', Times, serif
+}
+.logo{
+  width: 200px;
+}
+.logo-container{
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+}
+
+.social-media{
+  display: flex;
+  
+}
+.insta{
+  display: flex;
+  padding: 20px; 
+}
+
+.content-images{
+  width: 300px;
+  height: 450px;
+}
+
+.figure{
+  display: flex;
+  justify-content: space-around;
+  padding-top: 100px;
+  
+}
+.content-links{
+  width: 300px;
+  padding-bottom: 50px;
+}
+.footer-logo{
+  text-align: center;
+  padding-top: 50px;
+  background: #FF4E41;
+  background: linear-gradient(to right, #FF4E41 0%, #FB6B18 30%, #FF4208 60%, #C10209 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+.footer{
+background-color: #F0F1F2;
+height: 300px;
+
+}
+.footer-links{
+  text-align: center;
+}
+
+.content-ingredients{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 75px;
+  
+}
+.card-container{
+  padding: 75px;
+}
+ 
+.sub-content-images{
+  border-radius: 50%;
+}
+.sub-content-links{
+ display:inline-flex;
+ 
+ align-items: center;
+  
+}
+.caption{
+  padding: 50px;
+}
+.chopsticks{
+  width: 300px;
+  height: 200px;
+  padding-top: 100px;
+  margin-top: 100px;
+}
