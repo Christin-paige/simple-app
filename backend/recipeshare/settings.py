@@ -15,7 +15,7 @@ SECRET_KEY = "django-insecure-s+886@(2dtrz9psyvg_p-%)m=(@8v2e9dhdn&qlekghurgz12p
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['54.205.109.94']
+ALLOWED_HOSTS = ['54.205.109.94', 'https://d4mvfogiw9bhd.cloudfront.net/']
 
 
 # Application definition
@@ -48,7 +48,7 @@ MIDDLEWARE = [
 ]
 
 CORS_ALLOWED_ORIGINS = [
-    "http://localhost:5173"
+    "http://localhost:5173", "https://d4mvfogiw9bhd.cloudfront.net/"
 ]
 
 ROOT_URLCONF = "recipeshare.urls"
