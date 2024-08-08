@@ -49,7 +49,7 @@ MIDDLEWARE = [
 ]
 
 CORS_ALLOWED_ORIGINS = [
-    "http://localhost:5173", 'http://54.205.109.94','https://d4mvfogiw9bhd.cloudfront.net'
+    "http://localhost:5173", 'http://54.205.109.94','https://d4mvfogiw9bhd.cloudfront.net','https://d3kze3wmitbeb7.cloudfront.net','http://simple-app-recipe.s3-website-us-east-1.amazonaws.com',
 ]
 
 ROOT_URLCONF = "recipeshare.urls"
