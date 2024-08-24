@@ -20,7 +20,7 @@ ALLOWED_HOSTS = [
     '127.0.0.1',
     '54.205.109.94',  # EC2 instance IP
     'd4mvfogiw9bhd.cloudfront.net',  # CloudFront domain
-    'ec2-54-205-109-94.compute-1.amazonaws.com',  # EC2 domain
+    'ec2-3-81-214-193.compute-1.amazonaws.com',  # EC2 domain
     '52.87.209.101',  # Another EC2 IP or service
     '3.81.214.193'  # The IP currently using
 ]
