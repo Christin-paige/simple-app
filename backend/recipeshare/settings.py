@@ -26,7 +26,8 @@ ALLOWED_HOSTS = [
     'd4mvfogiw9bhd.cloudfront.net',  # CloudFront domain
     'ec2-3-81-214-193.compute-1.amazonaws.com',  # EC2 domain
     '52.87.209.101',  # Another EC2 IP or service
-    '3.81.214.193'  # The IP currently using
+    '3.81.214.193',  # The IP currently using
+    '54.159.83.38', #IP address 9/14
 ]
 
 
@@ -61,7 +62,7 @@ MIDDLEWARE = [
 ]
 
 CORS_ALLOWED_ORIGINS = [
-    "http://localhost:5173", 'http://54.205.109.94','https://d4mvfogiw9bhd.cloudfront.net','https://d3kze3wmitbeb7.cloudfront.net','http://simple-app-recipe.s3-website-us-east-1.amazonaws.com',
+    "http://localhost:5173", 'http://54.205.109.94','https://d4mvfogiw9bhd.cloudfront.net','https://d3kze3wmitbeb7.cloudfront.net','http://simple-app-recipe.s3-website-us-east-1.amazonaws.com', 'http://54.159.83.38',
 ]
 
 ROOT_URLCONF = "recipeshare.urls"
